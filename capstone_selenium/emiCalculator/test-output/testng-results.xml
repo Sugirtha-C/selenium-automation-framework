@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T05:11:50 UTC" name="HomeLoanEmiCalc_Suite" finished-at="2024-09-05T05:12:18 UTC" duration-ms="28058">
+    <groups>
+    </groups>
+    <test started-at="2024-09-05T05:11:50 UTC" name="Test" finished-at="2024-09-05T05:12:18 UTC" duration-ms="28058">
+      <class name="testNGtests.HomeLoanScreenRefresh">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGtests.HomeLoanScreenRefresh@59309333]" started-at="2024-09-05T05:11:59 UTC" name="setUp" finished-at="2024-09-05T05:12:00 UTC" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValuesAfterBrowserRefresh()[pri:0, instance:testNGtests.HomeLoanScreenRefresh@59309333]" started-at="2024-09-05T05:12:00 UTC" name="verifyValuesAfterBrowserRefresh" finished-at="2024-09-05T05:12:07 UTC" duration-ms="7463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValuesAfterBrowserRefresh -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGtests.HomeLoanScreenRefresh@59309333]" started-at="2024-09-05T05:12:07 UTC" name="closeBrowser" finished-at="2024-09-05T05:12:08 UTC" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGtests.HomeLoanScreenRefresh -->
+      <class name="testNGtests.HomeLoanEmiWithInterestRateTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGtests.HomeLoanEmiWithInterestRateTests@6379eb]" started-at="2024-09-05T05:11:50 UTC" name="setUp" finished-at="2024-09-05T05:11:51 UTC" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmiValuesWithYearsTenureInYears(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGtests.HomeLoanEmiWithInterestRateTests@6379eb]" started-at="2024-09-05T05:11:52 UTC" name="verifyEmiValuesWithYearsTenureInYears" data-provider="CalcEmiWithInterestRate" finished-at="2024-09-05T05:11:57 UTC" duration-ms="5305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[42,641]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1,02,33,946]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiValuesWithYearsTenureInYears -->
+        <test-method signature="verifyEmiValuesWithYearsTenureInYears(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGtests.HomeLoanEmiWithInterestRateTests@6379eb]" started-at="2024-09-05T05:11:57 UTC" name="verifyEmiValuesWithYearsTenureInYears" data-provider="CalcEmiWithInterestRate" finished-at="2024-09-05T05:11:59 UTC" duration-ms="2102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NaN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiValuesWithYearsTenureInYears -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGtests.HomeLoanEmiWithInterestRateTests@6379eb]" started-at="2024-09-05T05:11:59 UTC" name="closeBrowser" finished-at="2024-09-05T05:11:59 UTC" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGtests.HomeLoanEmiWithInterestRateTests -->
+      <class name="testNGtests.HomeLoanEmiTests_withMonths">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGtests.HomeLoanEmiTests_withMonths@5876a9af]" started-at="2024-09-05T05:12:08 UTC" name="setUp" finished-at="2024-09-05T05:12:08 UTC" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmiValuesWithYearsTenureInMonths(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGtests.HomeLoanEmiTests_withMonths@5876a9af]" started-at="2024-09-05T05:12:08 UTC" name="verifyEmiValuesWithYearsTenureInMonths" data-provider="CalcEmiWithTenureAsMonths" finished-at="2024-09-05T05:12:18 UTC" duration-ms="9805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[130]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[64,860]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[84,31,778]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiValuesWithYearsTenureInMonths -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGtests.HomeLoanEmiTests_withMonths@5876a9af]" started-at="2024-09-05T05:12:18 UTC" name="closeBrowser" finished-at="2024-09-05T05:12:18 UTC" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGtests.HomeLoanEmiTests_withMonths -->
+    </test> <!-- Test -->
+  </suite> <!-- HomeLoanEmiCalc_Suite -->
+</testng-results>
