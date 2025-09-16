@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HomeLoanEmiCalc_Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGtests.HomeLoanEmiWithInterestRateTests"/>
+      <class name="testNGtests.HomeLoanScreenRefresh"/>
+      <class name="testNGtests.HomeLoanEmiTests_withMonths"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
