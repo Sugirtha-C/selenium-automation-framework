@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParabankMasterSuite">
+<!--	
+  <test name="CucumberTests">
+	   <classes>
+      	<class name="testrunner.TestRunner"/>
+      	</classes>
+    </test>
+    -->
+   <test name="TestNGTests">
+    <classes>
+      <class name="tests.OpenAccountWithDataProviderTest"/>
+      <class name="tests.LoanApplicationWithDataProviderTest"/>
+      <class name="tests.TransferFundsWithDataProviderTests"/>
+    </classes>
+  </test> 
+  
+</suite> 

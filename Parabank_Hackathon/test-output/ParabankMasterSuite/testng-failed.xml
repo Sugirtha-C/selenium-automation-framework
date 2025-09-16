@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParabankMasterSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNGTests(failed)">
+    <classes>
+      <class name="tests.TransferFundsWithDataProviderTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+          <include name="verifyFundTransfers" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.TransferFundsWithDataProviderTests -->
+      <class name="tests.LoanApplicationWithDataProviderTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyLoanApplication" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.LoanApplicationWithDataProviderTest -->
+      <class name="tests.OpenAccountWithDataProviderTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyOpenNewAccount" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.OpenAccountWithDataProviderTest -->
+    </classes>
+  </test> <!-- TestNGTests(failed) -->
+</suite> <!-- Failed suite [ParabankMasterSuite] -->

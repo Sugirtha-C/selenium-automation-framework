@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-24T07:20:01 UTC" name="Default suite" finished-at="2024-07-24T07:20:10 UTC" duration-ms="9148">
+    <groups>
+    </groups>
+    <test started-at="2024-07-24T07:20:01 UTC" name="Default test" finished-at="2024-07-24T07:20:10 UTC" duration-ms="9148">
+      <class name="tests.SignInSignOuTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignInSignOuTest@a514af7]" started-at="2024-07-24T07:20:01 UTC" name="setUp" finished-at="2024-07-24T07:20:02 UTC" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignInSignOuTest@a514af7]" started-at="2024-07-24T07:20:02 UTC" name="setUp" finished-at="2024-07-24T07:20:02 UTC" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignInSignOut()[pri:0, instance:tests.SignInSignOuTest@a514af7]" started-at="2024-07-24T07:20:02 UTC" name="verifySignInSignOut" finished-at="2024-07-24T07:20:10 UTC" duration-ms="7952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInSignOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SignInSignOuTest@a514af7]" started-at="2024-07-24T07:20:10 UTC" name="closeBrowser" finished-at="2024-07-24T07:20:10 UTC" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SignInSignOuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
