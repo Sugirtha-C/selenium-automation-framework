@@ -13,7 +13,7 @@ This repository contains Selenium WebDriver automation work, including **practic
    - Automated online banking workflows.  
    - Hybrid framework using **TestNG + Cucumber (BDD)**.  
    - Includes feature files, POM classes, step definitions, utilities.  
-   - 📂 [Project Code](./parabank_hackathon)
+   - 📂 [Project Code](./Parabank_Hackathon)
 
 ## 🛠️ Tech Stack
 - Java  
