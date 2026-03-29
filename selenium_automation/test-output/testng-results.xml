@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-29T19:44:15 AST" name="Default suite" finished-at="2026-03-29T19:44:38 AST" duration-ms="23748">
+    <groups>
+    </groups>
+    <test started-at="2026-03-29T19:44:15 AST" name="Default test" finished-at="2026-03-29T19:44:38 AST" duration-ms="23748">
+      <class name="tests.RegistrationTest">
+        <test-method signature="registerUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegistrationTest@311bf055]" started-at="2026-03-29T19:44:15 AST" name="registerUser" data-provider="registrationData" finished-at="2026-03-29T19:44:38 AST" duration-ms="23675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1774802655263@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- tests.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

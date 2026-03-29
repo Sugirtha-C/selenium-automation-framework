@@ -1,0 +1,8 @@
+config\ConfigReader.class
+base\DriverFactory.class
+pages\LoginPage.class
+utils\WaitUtil.class
+pages\RegistrationPage.class
+utils\JsonUtil.class
+utils\ScreenshotUtil.class
+utils\PopupHandler.class

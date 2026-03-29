@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "type": "invalid_email",
+      "name": "Joe",
+      "email": "invalidnoat"
+    },
+    {
+      "type": "valid",
+      "name": "Joe",
+      "email": "testing@newexistingmail.com",
+      "password": "1234",
+      "firstName": "Joe",
+      "lastName": "Doe",
+      "address": "Street 1",
+      "city": "NY",
+      "state": "NY",
+      "zip": "10001",
+      "mobile": "9999999999"
+    },
+    {
+      "type": "missing_fields",
+      "name": "John",
+      "email": "test2@wrong2mail.com",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "mobile": ""
+    }
+  ]
+}
